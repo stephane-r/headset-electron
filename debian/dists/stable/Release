@@ -1,0 +1,18 @@
+Origin: headsetapp.co
+Codename: stable
+Date: Thu, 17 May 2018 23:33:26 UTC
+Architectures: amd64
+Components: non-free
+Description: Apt repository for Headset
+MD5Sum:
+ 63e671c7e5936bfab6d008541626362a 947 non-free/binary-amd64/Packages
+ efd6f17fa9b4dd62907b3fcd276a7a40 634 non-free/binary-amd64/Packages.gz
+ daf2bc2f5c941290e81a0cb9ba4c332b 102 non-free/binary-amd64/Release
+SHA1:
+ 2ad56de927e4e855e55bb77af4a989d990c6f593 947 non-free/binary-amd64/Packages
+ 7fc9f390bf21c23f7efaa1b8357d9776eeafc6a8 634 non-free/binary-amd64/Packages.gz
+ 9409a11a386eac89c4b96d6be7f00ddf62e9c020 102 non-free/binary-amd64/Release
+SHA256:
+ fb0e3d51559f85fb8875b8eea07f4b3623b0db0dbeced38a19f6fe4eb3d6ba54 947 non-free/binary-amd64/Packages
+ 8b6a184c5f31a7976bb62f42645b21fdd193bbd0c3d4de2b4c7c9f72ff3b385d 634 non-free/binary-amd64/Packages.gz
+ ec5d3c78be91a9dc9a3c3f68b44a9e6982da8af5d2939e7c48dcc0457656956a 102 non-free/binary-amd64/Release
