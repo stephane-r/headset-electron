@@ -33,6 +33,11 @@ const shouldQuit = app.makeSingleInstance(() => {
   }
 });
 
+const lang = 'en';
+
+// eslint-disable-next-line
+const langResource = require(`./locales/${lang}.json`);
+
 if (shouldQuit) app.quit();
 
 const start = () => {
@@ -110,6 +115,8 @@ const start = () => {
     if (isDev) {
       win.webContents.openDevTools();
     }
+
+    win.webContents.send('locales', lang, langResource);
   }); // end did-finish-load
 
   win.on('close', () => {
@@ -135,7 +142,7 @@ app.on('browser-window-created', (e, window) => {
  * This is the proxy between the 2 windows.
  * it receives messages from a renderrer
  * and send them to the other renderrer
-*/
+ */
 ipcMain.on('win2Player', (e, args) => {
   logWin2Player('%O', args);
 
